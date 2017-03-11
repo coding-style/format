@@ -4,24 +4,24 @@ This document defines a universal representation of a coding style in JSON forma
 
 ```json
 {
-  csn: integer,
-  version: integer,
-  name: {
+  "csn": integer,
+  "version": integer,
+  "name": {
     <language iso code>: string
   },
-  rationale: {
+  "rationale": {
     <language iso code>: string
   },
-  languages: [string],
-  sources: [
+  "languages": [string],
+  "sources": [
     {
-      name: string,
-      url: string
+      "name": string,
+      "url": string
     }
   ],
-  tags: [string],
-  related: [integer],
-  conflicts: [integer]
+  "tags": [string],
+  "related": [integer],
+  "conflicts": [integer]
 }
 ```
 
