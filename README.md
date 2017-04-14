@@ -29,7 +29,7 @@ This document defines a universal representation of a coding style in JSON forma
 
 ### csn
 
-A coding style number (CSN) is a non-negative integer which uniquely refers toa coding style.
+A coding style number (CSN) is a non-negative integer which uniquely refers to a coding style.
 
 ### version
 
@@ -60,7 +60,7 @@ If no URL is available, this field is an empty string.
 ### tags
 
 An array of tags.
-Tags SHOULD be english, lowercase keywords.
+Tags SHOULD be American English, lowercase keywords.
 
 ### related
 
